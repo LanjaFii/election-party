@@ -1,0 +1,14 @@
+.lang{
+    background-color: black;
+}
+.lang a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+.lang a:hover{
+    background-color: rgb(0, 255, 0);
+}

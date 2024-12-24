@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.interface{
+    background-color: cadetblue;
+    width: 75%;
+    height: 100%;
+    margin-left: 12.5%;
+    padding-left: 5%;
+    margin-top: 5%;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}
+
+label{
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    font-size: 50px;
+}
+input{
+    width: 50%;
+    font-size: 25px;
+    border-radius: 10px;
+    height: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.acceder{
+    font-size: 100%;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(128, 0, 0);
+    border-radius: 10px;
+    float: right;
+    margin-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.mess{
+    margin-left: 20%;
+    color: orangered;
+}

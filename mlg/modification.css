@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+fieldset{
+    background-color: black;
+    border: solid 10px orangered;
+    border-radius: 15px;
+    text-align: center;
+}
+legend{
+    color: darkturquoise;
+    font-size: 20px;
+}
+label{
+    color: white;
+    display: inline-block;
+    width: 10%;
+    text-align: left;
+    font-size: 25px;
+}
+input{
+    font-size: 20px;
+    width: 30%;
+    border-radius: 3px;
+}
+.mdf{
+    border-radius: 10px;
+    width:auto;
+}
+.mdf:hover{
+    background-color: red;
+    color: white;
+}
