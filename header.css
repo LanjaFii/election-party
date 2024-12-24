@@ -1,0 +1,76 @@
+body{
+    font-family: 'Century Gothic', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color:rgb(47, 49, 49);
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.navigation{
+    display: table;
+    margin: 0 auto;
+}
+.inscri:hover{
+    border-top: 5px solid rgb(236, 79, 22);
+    background-color: rgba(194, 54, 3, 0.15);
+}
+
+.liste:hover{
+    border-top: 5px solid rgba(145, 103, 241, 0.938);
+    background-color: rgba(47, 0, 255, 0.15);
+}
+
+.election:hover{
+    border-top: 5px solid rgb(33, 231, 155);
+    background-color: rgba(6, 114, 72, 0.15);
+}
+
+.result:hover{
+    border-top: 5px solid rgb(228, 46, 146);
+    background-color: rgba(167, 6, 94, 0.15);
+}
+
+.menu:hover{
+    border-top: 5px solid rgb(145, 214, 231);
+    background-color: rgba(5, 130, 161, 0.15);
+}
+nav li:hover a{
+    padding: 15px 10px 20px 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 200px;
+    background-color: darkgrey;
+    border-top: 2px solid black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    text-shadow: -4px 4px 6px white;
+}

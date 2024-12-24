@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+td{
+    width: 25%;
+    color: aliceblue;
+    border: solid 1px white;
+    text-align: left;
+}
+.listelir, .liste_pas_elir{
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 5px rgb(255, 255, 255);
+}
+.nom, .prénoms, .cin, .candidat, .adresse{
+    text-align: center;
+    text-transform: uppercase;
+}
+.info{
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    text-shadow: 0px 0px 10px black;
+    background-color: grey;
+    margin: 0px;
+}
+h3{
+    color: aliceblue;
+    text-align: center;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1002px) {
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    td{
+        display:table-cell;
+        vertical-align: inherit;
+        width: 20%;
+        border-radius: 0px;
+        margin:0px;
+        margin-bottom: 0px; 
+        text-align: left;  
+    }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    td{
+        display:table-cell;
+        vertical-align: inherit;
+        width: 20%;
+        border-radius: 0px;
+        margin:0px;
+        margin-bottom: 0px; 
+        text-align: left;  
+    }
+    .lst{
+        overflow: auto;
+    }
+}

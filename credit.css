@@ -1,0 +1,36 @@
+
+.credits{
+    display: block;
+    margin-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    text-align: center;
+}
+.zah{
+    font-weight: bold;
+    font-style: italic;
+    color: darkcyan;
+}
+.mr{
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+}
+.paragraphe{
+    font-size: 25px;
+}
+.lanja, .mr_sedra{
+    width: 100px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 400px){
+    .paragraphe{
+        font-size: 15px;
+    }
+    .lanja, .mr_sedra{
+        width: 50px;
+    }
+}
